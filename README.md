@@ -1,5 +1,67 @@
-# Forex-Trading-EA
-Fractal-scalping based Expert Advisor for Forex Trading 
+PROJECT
+Project: Conversion of a Forex indicator into an Expert Advisor (EA)
+Aim: To convert an existing Forex Trading Indicator (Fractal-scalper) into an Expert Advisor, with additional custom features.
+EXPERT ADVISOR NAME: Fractal-Times
+
+â€¢	It should trade the following currencies
+â€¢	GBP/JPY, GBP/USD, EUR/USD, XAU/USD
+â€¢	It should trade only during the London and NewYork sessions
+â€¢	It should trade 5 days a week
+â€¢	Important addition
+----------------------------------------------------------------------------------------------------------------------
+Avoid:
+â€¢	Late Friday (after 5PM GMT)
+â€¢	Market open (First 1-2 hours Monday)
+Continuation
+â€¢	It should run on VPS â€“ VPS requirements are stated below:
+â€¢	Low latency (< 10ms to broker)
+â€¢	24/7 uptime
+â€¢	Stable internet
+---------------------------------------------------------------------------------------------------
+â€¢	It should avoid NFP news
+â€¢	It should trade on Live and Demo account
+â€¢	It should trade minimum account of $20
+â€¢	It should trade with minimum lot size of 0.01
+â€¢	It should trade on H1 and H4 time frames (create multi-timeframe confluence)
+â€¢	It should be one trade per signal
+â€¢	It should be simple (controlled simplicity)
+â€¢	Keep: Clear entry logic (fractal breakout)
 
 
-JECTProject: Conversion of a Forex indicator into an Expert Advisor (EA)Aim: To convert an existing Forex Trading Indicator (Fractal-scalper) into an Expert Advisor, with additional custom features.EXPERT ADVISOR NAME: Fractal-TimesIt should trade the following currenciesGBP/JPY, GBP/USD, EUR/USD, XAU/USDIt should trade only during the London and NewYork sessionsIt should trade 5 days a weekImportant addition----------------------------------------------------------------------------------------------------------------------Avoid:Late Friday (after 5PM GMT)Market open (First 1-2 hours Monday)ContinuationIt should run on VPS – VPS requirements are stated below:Low latency (< 10ms to broker)24/7 uptimeStable internet---------------------------------------------------------------------------------------------------It should avoid NFP newsIt should trade on Live and Demo accountIt should trade minimum account of $20It should trade with minimum lot size of 0.01It should trade on H1 and H4 time frames (create multi-timeframe confluence)It should be one trade per signalIt should be simple (controlled simplicity)Keep: Clear entry logic (fractal breakout)KEY NOTESBlue arrow = confirmed bullish breakoutBlue arrow =  buy signalRed arrow =  confirmed bearish breakoutRed arrow =  sell signal ENTRY CONDITION:Fractal breakout signalConfirm with candle closeEXIT CONDITION: Close and reverse trade immediatelySTOPLOSS CONDITIONBuy trade SL below last fractal lowSell trade SL above last fractal highSL = fractal-base         VERY IMPORTANT NOTES:This indicator is classified into:Breakout scalping systemMomentum confirmation strategyMicro-structure Trend following ToolEXPLANATION ON TIMEFRAMESHow to use them properlyH4   Trend FilterDetermines directionAbove structure  BuyBelow structure  SellH1  Entry executionFractal breakout signal trigger hereNote: Use it as it is in the indicator 
+KEY NOTES
+â€¢	Blue arrow = confirmed bullish breakout
+â€¢	Blue arrow =  buy signal
+â€¢	Red arrow =  confirmed bearish breakout
+â€¢	Red arrow =  sell signal 
+â€¢	ENTRY CONDITION:
+*	Fractal breakout signal
+*	Confirm with candle close
+
+â€¢	EXIT CONDITION: 
+â€¢	Close and reverse trade immediately
+
+â€¢	STOPLOSS CONDITION
+â€¢	Buy trade SL below last fractal low
+â€¢	Sell trade SL above last fractal high
+â€¢	SL = fractal-base
+
+         VERY IMPORTANT NOTES:
+â€¢	This indicator is classified into:
+â€¢	Breakout scalping system
+â€¢	Momentum confirmation strategy
+â€¢	Micro-structure Trend following Tool
+
+
+
+EXPLANATION ON TIMEFRAMES
+How to use them properly
+H4  ===> Trend Filter
+-	Determines direction
+-	Above structure ===> Buy
+-	Below structure ===> Sell
+H1 ===> Entry execution
+â€¢	Fractal breakout signal trigger here
+
+â€¢	Note: Use it as it is in the indicator 
+
+     
